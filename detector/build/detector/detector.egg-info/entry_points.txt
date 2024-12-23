@@ -1,0 +1,4 @@
+[console_scripts]
+Claw = detector.Claw:main
+Claw2 = detector.Claw2:main
+

@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating detector.egg-info
+writing detector.egg-info/PKG-INFO
+writing dependency_links to detector.egg-info/dependency_links.txt
+writing entry points to detector.egg-info/entry_points.txt
+writing requirements to detector.egg-info/requires.txt
+writing top-level names to detector.egg-info/top_level.txt
+writing manifest file 'detector.egg-info/SOURCES.txt'
+reading manifest file 'detector.egg-info/SOURCES.txt'
+writing manifest file 'detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kemas/ros2_ws/src/detector/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+Installing Claw script to /home/kemas/ros2_ws/src/detector/install/detector/lib/detector
+Installing Claw2 script to /home/kemas/ros2_ws/src/detector/install/detector/lib/detector
+
+Installed /home/kemas/ros2_ws/src/detector/build/detector
+running symlink_data
+creating /home/kemas/ros2_ws/src/detector/install/detector/share/ament_index
+creating /home/kemas/ros2_ws/src/detector/install/detector/share/ament_index/resource_index
+creating /home/kemas/ros2_ws/src/detector/install/detector/share/ament_index/resource_index/packages
+symbolically linking /home/kemas/ros2_ws/src/detector/build/detector/resource/detector -> /home/kemas/ros2_ws/src/detector/install/detector/share/ament_index/resource_index/packages
+symbolically linking /home/kemas/ros2_ws/src/detector/build/detector/package.xml -> /home/kemas/ros2_ws/src/detector/install/detector/share/detector

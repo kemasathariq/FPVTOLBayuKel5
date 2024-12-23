@@ -1,0 +1,25 @@
+[0.611s] Invoking command in '/home/kemas/ros2_ws/src/detector/build/detector': PYTHONPATH=/home/kemas/ros2_ws/src/detector/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/detector/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kemas/ros2_ws/src/detector/build/detector/build --no-deps symlink_data
+[0.859s] running develop
+[1.008s] running egg_info
+[1.009s] creating detector.egg-info
+[1.009s] writing detector.egg-info/PKG-INFO
+[1.009s] writing dependency_links to detector.egg-info/dependency_links.txt
+[1.009s] writing entry points to detector.egg-info/entry_points.txt
+[1.010s] writing requirements to detector.egg-info/requires.txt
+[1.010s] writing top-level names to detector.egg-info/top_level.txt
+[1.010s] writing manifest file 'detector.egg-info/SOURCES.txt'
+[1.011s] reading manifest file 'detector.egg-info/SOURCES.txt'
+[1.012s] writing manifest file 'detector.egg-info/SOURCES.txt'
+[1.013s] running build_ext
+[1.014s] Creating /home/kemas/ros2_ws/src/detector/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+[1.014s] Installing Claw script to /home/kemas/ros2_ws/src/detector/install/detector/lib/detector
+[1.014s] Installing Claw2 script to /home/kemas/ros2_ws/src/detector/install/detector/lib/detector
+[1.015s] 
+[1.015s] Installed /home/kemas/ros2_ws/src/detector/build/detector
+[1.015s] running symlink_data
+[1.015s] creating /home/kemas/ros2_ws/src/detector/install/detector/share/ament_index
+[1.015s] creating /home/kemas/ros2_ws/src/detector/install/detector/share/ament_index/resource_index
+[1.015s] creating /home/kemas/ros2_ws/src/detector/install/detector/share/ament_index/resource_index/packages
+[1.015s] symbolically linking /home/kemas/ros2_ws/src/detector/build/detector/resource/detector -> /home/kemas/ros2_ws/src/detector/install/detector/share/ament_index/resource_index/packages
+[1.016s] symbolically linking /home/kemas/ros2_ws/src/detector/build/detector/package.xml -> /home/kemas/ros2_ws/src/detector/install/detector/share/detector
+[1.062s] Invoked command in '/home/kemas/ros2_ws/src/detector/build/detector' returned '0': PYTHONPATH=/home/kemas/ros2_ws/src/detector/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/detector/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kemas/ros2_ws/src/detector/build/detector/build --no-deps symlink_data

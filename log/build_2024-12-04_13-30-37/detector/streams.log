@@ -1,0 +1,20 @@
+[0.602s] Invoking command in '/home/kemas/ros2_ws/src/detector': PYTHONPATH=/home/kemas/ros2_ws/src/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/detector build --build-base /home/kemas/ros2_ws/src/build/detector/build install --record /home/kemas/ros2_ws/src/build/detector/install.log --single-version-externally-managed install_data
+[0.829s] running egg_info
+[0.830s] writing ../build/detector/detector.egg-info/PKG-INFO
+[0.830s] writing dependency_links to ../build/detector/detector.egg-info/dependency_links.txt
+[0.831s] writing entry points to ../build/detector/detector.egg-info/entry_points.txt
+[0.831s] writing requirements to ../build/detector/detector.egg-info/requires.txt
+[0.831s] writing top-level names to ../build/detector/detector.egg-info/top_level.txt
+[0.832s] reading manifest file '../build/detector/detector.egg-info/SOURCES.txt'
+[0.833s] writing manifest file '../build/detector/detector.egg-info/SOURCES.txt'
+[0.833s] running build
+[0.833s] running build_py
+[0.833s] running install
+[0.833s] running install_lib
+[0.834s] running install_data
+[0.834s] running install_egg_info
+[0.836s] removing '/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages/detector-0.0.0-py3.10.egg-info' (and everything under it)
+[0.836s] Copying ../build/detector/detector.egg-info to /home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages/detector-0.0.0-py3.10.egg-info
+[0.837s] running install_scripts
+[0.856s] writing list of installed files to '/home/kemas/ros2_ws/src/build/detector/install.log'
+[0.890s] Invoked command in '/home/kemas/ros2_ws/src/detector' returned '0': PYTHONPATH=/home/kemas/ros2_ws/src/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/detector build --build-base /home/kemas/ros2_ws/src/build/detector/build install --record /home/kemas/ros2_ws/src/build/detector/install.log --single-version-externally-managed install_data

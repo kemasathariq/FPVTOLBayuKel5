@@ -1,0 +1,20 @@
+[1.036s] Invoking command in '/home/kemas/ros2_ws/src/build/detector': PYTHONPATH=/home/kemas/ros2_ws/src/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kemas/ros2_ws/src/build/detector/build --no-deps symlink_data --force
+[1.446s] running develop
+[1.696s] running egg_info
+[1.696s] writing detector.egg-info/PKG-INFO
+[1.696s] writing dependency_links to detector.egg-info/dependency_links.txt
+[1.697s] writing entry points to detector.egg-info/entry_points.txt
+[1.697s] writing requirements to detector.egg-info/requires.txt
+[1.697s] writing top-level names to detector.egg-info/top_level.txt
+[1.701s] reading manifest file 'detector.egg-info/SOURCES.txt'
+[1.702s] writing manifest file 'detector.egg-info/SOURCES.txt'
+[1.704s] running build_ext
+[1.705s] Creating /home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+[1.706s] Installing Claw script to /home/kemas/ros2_ws/src/install/detector/lib/detector
+[1.706s] Installing Claw2 script to /home/kemas/ros2_ws/src/install/detector/lib/detector
+[1.707s] 
+[1.707s] Installed /home/kemas/ros2_ws/src/build/detector
+[1.707s] running symlink_data
+[1.707s] symbolically linking /home/kemas/ros2_ws/src/build/detector/resource/detector -> /home/kemas/ros2_ws/src/install/detector/share/ament_index/resource_index/packages
+[1.707s] symbolically linking /home/kemas/ros2_ws/src/build/detector/package.xml -> /home/kemas/ros2_ws/src/install/detector/share/detector
+[1.799s] Invoked command in '/home/kemas/ros2_ws/src/build/detector' returned '0': PYTHONPATH=/home/kemas/ros2_ws/src/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kemas/ros2_ws/src/build/detector/build --no-deps symlink_data --force

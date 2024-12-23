@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.001334] (detector) JobQueued: {'identifier': 'detector', 'dependencies': OrderedDict()}
+[0.001473] (detector) JobStarted: {'identifier': 'detector'}
+[0.099691] (-) TimerEvent: {}
+[0.200259] (-) TimerEvent: {}
+[0.300851] (-) TimerEvent: {}
+[0.401449] (-) TimerEvent: {}
+[0.502037] (-) TimerEvent: {}
+[0.602565] (-) TimerEvent: {}
+[0.703115] (-) TimerEvent: {}
+[0.803709] (-) TimerEvent: {}
+[0.904242] (-) TimerEvent: {}
+[1.004825] (-) TimerEvent: {}
+[1.029605] (detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kemas/ros2_ws/src/build/detector/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/kemas/ros2_ws/src/build/detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kemas', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kemas', 'OLDPWD': '/home/kemas/ros2_ws/src/detector', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '1492', 'SYSTEMD_EXEC_PID': '2042', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3810', 'COLCON_PREFIX_PATH': '/home/kemas/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'kemas', 'JOURNAL_STREAM': '8:2597', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kemas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/kemas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kemasathariq:@/tmp/.ICE-unix/1758,unix/kemasathariq:/tmp/.ICE-unix/1758', 'INVOCATION_ID': '06d1dc8ecd814405963b264012b6eecb', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kemas/ros2_ws/install/detector:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:aafbd72c-65b1-4315-86a9-f0786d8edef5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kemas/ros2_ws/src/build/detector', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kemas/ros2_ws/src/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages:/home/kemas/ros2_ws/install/detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.104974] (-) TimerEvent: {}
+[1.205493] (-) TimerEvent: {}
+[1.306101] (-) TimerEvent: {}
+[1.406720] (-) TimerEvent: {}
+[1.447000] (detector) StdoutLine: {'line': b'running develop\n'}
+[1.506923] (-) TimerEvent: {}
+[1.607502] (-) TimerEvent: {}
+[1.696716] (detector) StdoutLine: {'line': b'running egg_info\n'}
+[1.697344] (detector) StdoutLine: {'line': b'writing detector.egg-info/PKG-INFO\n'}
+[1.697672] (detector) StdoutLine: {'line': b'writing dependency_links to detector.egg-info/dependency_links.txt\n'}
+[1.698003] (detector) StdoutLine: {'line': b'writing entry points to detector.egg-info/entry_points.txt\n'}
+[1.698183] (detector) StdoutLine: {'line': b'writing requirements to detector.egg-info/requires.txt\n'}
+[1.698522] (detector) StdoutLine: {'line': b'writing top-level names to detector.egg-info/top_level.txt\n'}
+[1.702705] (detector) StdoutLine: {'line': b"reading manifest file 'detector.egg-info/SOURCES.txt'\n"}
+[1.703751] (detector) StdoutLine: {'line': b"writing manifest file 'detector.egg-info/SOURCES.txt'\n"}
+[1.705731] (detector) StdoutLine: {'line': b'running build_ext\n'}
+[1.706063] (detector) StdoutLine: {'line': b'Creating /home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)\n'}
+[1.707217] (detector) StdoutLine: {'line': b'Installing Claw script to /home/kemas/ros2_ws/src/install/detector/lib/detector\n'}
+[1.707499] (detector) StdoutLine: {'line': b'Installing Claw2 script to /home/kemas/ros2_ws/src/install/detector/lib/detector\n'}
+[1.707677] (-) TimerEvent: {}
+[1.707966] (detector) StdoutLine: {'line': b'\n'}
+[1.708161] (detector) StdoutLine: {'line': b'Installed /home/kemas/ros2_ws/src/build/detector\n'}
+[1.708331] (detector) StdoutLine: {'line': b'running symlink_data\n'}
+[1.708615] (detector) StdoutLine: {'line': b'symbolically linking /home/kemas/ros2_ws/src/build/detector/resource/detector -> /home/kemas/ros2_ws/src/install/detector/share/ament_index/resource_index/packages\n'}
+[1.708839] (detector) StdoutLine: {'line': b'symbolically linking /home/kemas/ros2_ws/src/build/detector/package.xml -> /home/kemas/ros2_ws/src/install/detector/share/detector\n'}
+[1.799712] (detector) CommandEnded: {'returncode': 0}
+[1.808302] (-) TimerEvent: {}
+[1.826263] (detector) JobEnded: {'identifier': 'detector', 'rc': 0}
+[1.827730] (-) EventReactorShutdown: {}

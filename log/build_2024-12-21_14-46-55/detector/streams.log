@@ -1,0 +1,25 @@
+[1.054s] Invoking command in '/home/kemas/ros2_ws/src/detector': PYTHONPATH=/home/kemas/ros2_ws/src/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/detector build --build-base /home/kemas/ros2_ws/src/build/detector/build install --record /home/kemas/ros2_ws/src/build/detector/install.log --single-version-externally-managed install_data
+[1.423s] running egg_info
+[1.424s] writing ../build/detector/detector.egg-info/PKG-INFO
+[1.424s] writing dependency_links to ../build/detector/detector.egg-info/dependency_links.txt
+[1.425s] writing entry points to ../build/detector/detector.egg-info/entry_points.txt
+[1.425s] writing requirements to ../build/detector/detector.egg-info/requires.txt
+[1.425s] writing top-level names to ../build/detector/detector.egg-info/top_level.txt
+[1.437s] reading manifest file '../build/detector/detector.egg-info/SOURCES.txt'
+[1.438s] writing manifest file '../build/detector/detector.egg-info/SOURCES.txt'
+[1.438s] running build
+[1.439s] running build_py
+[1.439s] copying detector/Claw2.py -> /home/kemas/ros2_ws/src/build/detector/build/lib/detector
+[1.439s] running install
+[1.440s] running install_lib
+[1.441s] copying /home/kemas/ros2_ws/src/build/detector/build/lib/detector/Claw2.py -> /home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages/detector
+[1.442s] byte-compiling /home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages/detector/Claw2.py to Claw2.cpython-310.pyc
+[1.444s] running install_data
+[1.444s] running install_egg_info
+[1.447s] removing '/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages/detector-0.0.0-py3.10.egg-info' (and everything under it)
+[1.447s] Copying ../build/detector/detector.egg-info to /home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages/detector-0.0.0-py3.10.egg-info
+[1.449s] running install_scripts
+[1.479s] Installing Claw script to /home/kemas/ros2_ws/src/install/detector/lib/detector
+[1.479s] Installing Claw2 script to /home/kemas/ros2_ws/src/install/detector/lib/detector
+[1.480s] writing list of installed files to '/home/kemas/ros2_ws/src/build/detector/install.log'
+[1.546s] Invoked command in '/home/kemas/ros2_ws/src/detector' returned '0': PYTHONPATH=/home/kemas/ros2_ws/src/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemas/ros2_ws/src/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/detector build --build-base /home/kemas/ros2_ws/src/build/detector/build install --record /home/kemas/ros2_ws/src/build/detector/install.log --single-version-externally-managed install_data
